@@ -1,10 +1,10 @@
-❤️ Heart Disease Analysis & Quiz App
-📌 Overview
+# Heart Disease Analysis & Quiz App
+## Overview
 This project is an interactive heart disease analysis and quiz application built using Streamlit.
 It uses the UCI Heart Disease dataset to perform Exploratory Data Analysis (EDA), visualize medical insights,
 and engage users with a Kahoot-style cardiology quiz.
 
-🧠 Problem Statement
+## Problem Statement
 Heart disease remains one of the leading causes of death worldwide.
 By analyzing patient medical records, we aim to:
 
@@ -14,7 +14,7 @@ Identify key medical indicators
 
 Encourage public awareness through an interactive quiz
 
-❓ Research Questions
+## Research Questions
 How is heart disease distributed among patients?
 
 What is the relationship between maximum heart rate and age?
@@ -27,8 +27,7 @@ What is the distribution of resting blood pressure?
 
 Are there gender differences in heart disease prevalence?
 
-
-📂 Project Structure
+## Project Structure
 bash
 Copy
 Edit
@@ -40,7 +39,7 @@ Edit
 ├── README.md                 # Project documentation
 ├── screenshots/              # Folder containing app screenshots
 
-🗄️ Data Dictionary
+## Data Dictionary
 Column	Description
 id	Unique patient ID
 age	Age of patient (years)
@@ -59,7 +58,7 @@ ca	Number of major vessels (0–3)
 thal	Thalassemia type
 num	Diagnosis of heart disease (0 = No, 1–4 = Yes)
 
-📊 Features
+## Features
 EDA Dashboard:
 
 Distribution plots for key variables
@@ -68,7 +67,7 @@ Relationship analysis between heart rate and age
 
 Gender-based disease distribution
 
-Quiz Game:
+## Quiz Game:
 
 5 questions for each difficulty level: Easy, Medium, Hard
 
@@ -82,7 +81,7 @@ Seaborn & Matplotlib for static plots
 
 Altair for interactive scatter plots
 
-⚙️ Installation
+## Installation
 bash
 Copy
 Edit
@@ -95,18 +94,19 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
-📷 Screenshots
-🏠 App Homepage
+### Screenshots
 
-📈 EDA Dashboard
+### App Homepage
 
-🧠 Quiz Game
+### EDA Dashboard
 
-🏆 Leaderboard PDF Example
+### Quiz Game
+
+### Leaderboard PDF Example
 
 (Screenshots should be placed in the screenshots/ folder in your project.)
 
-📈 Example Visualizations
+## Example Visualizations
 Heart disease distribution by gender
 
 Age vs. maximum heart rate
@@ -117,7 +117,7 @@ Resting blood pressure histogram
 
 Major vessels distribution
 
-🎯 How the Quiz Works
+## How the Quiz Works
 Select your name and start the quiz.
 
 Each question must be answered as quickly as possible for higher points.
